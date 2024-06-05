@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Typewriter from './Components/Typewriter';
 import Coder from "./Images/coding_avatar.png"
+import "animate.css"
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
         </h1>
         <Typewriter />
       </div>
-      <img className ="Coder" src={Coder} alt="" />
+      <div className= "animate__animated animate__bounceIn">
+        <img className ="Coder" src={Coder} alt="" />
+      </div>
     </div>
   );
 }

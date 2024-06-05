@@ -48,5 +48,9 @@
   }
 }
 
+.Coder {
+  animation: bounceIn;
+  animation-duration: 2s;
+}
 
 
