@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Typewriter from './Components/Typewriter';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1>
           My Name is <b>Dylan Giletto</b>
         </h1>
+        <Typewriter />
       </div>
     </div>
   );
