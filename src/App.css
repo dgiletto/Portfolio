@@ -5,7 +5,6 @@
   margin-top: 100px;
   margin-bottom: -50px;
   align-items: center;
-  background-color: #c83fed;
 }
 
 .IntroductionText h1{ 
@@ -15,6 +14,39 @@
   padding-top: 10px;
 }
 
+.TypeEffect {
+  padding: 25px 0px;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.6px;
+}
+
+@media (max-width: 900px) {
+  .IntroductionPage {
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    padding: 25px;
+  }
+  .IntroductionText {
+    text-align: left;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 500px) {
+  .IntroductionPage {
+    min-height: 70vh;
+  }
+  .IntroductionText h1 {
+    font-weight: 500;
+    font-size: 28px;
+  }
+  .TypeEffect {
+    font-weight: 500;
+    font-size: 24px;
+  }
+}
 
 
 
