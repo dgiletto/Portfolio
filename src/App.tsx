@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 import Typewriter from './Components/Typewriter';
-import Coder from "./Images/coding_avatar.png"
-import "animate.css"
+import Coder from "./Images/coding_avatar.png";
+import Navbar from "./Components/NavBar";
+import "animate.css";
 
 function App() {
   return (
     <div className="IntroductionPage">
+      <Navbar />
       <div className="IntroductionText">
         <h1>Hello There!</h1>
         <h1>
