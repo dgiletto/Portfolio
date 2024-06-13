@@ -1,25 +1,25 @@
 import React from 'react';
 import './App.css';
-import Typewriter from './Components/Typewriter';
-import Coder from "./Images/coding_avatar.png";
 import Navbar from "./Components/NavBar";
-import "animate.css";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Projects from "./Pages/Projects";
+import Contact from "./Pages/Contact";
+import Skills from "./Pages/Skills"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="IntroductionPage">
+    <Router>
       <Navbar />
-      <div className="IntroductionText">
-        <h1>Hello There!</h1>
-        <h1>
-          My Name is <b>Dylan Giletto</b>
-        </h1>
-        <Typewriter />
-      </div>
-      <div className= "animate__animated animate__bounceIn">
-        <img className ="Coder" src={Coder} alt="" />
-      </div>
-    </div>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/skills' element={<Skills />} />
+        <Route path="/contact-me" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 
