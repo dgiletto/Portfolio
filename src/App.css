@@ -54,4 +54,26 @@
   animation-duration: 2s;
 }
 
+.IntroductionText button {
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 25px 3% 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #e7e7e7;
+  height: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: none;
+}
+
+.IntroductionText button:hover {
+  color: #000;
+  background-color: #e7e7e7;
+  transition: all ease-in-out 0.3s;
+}
 
