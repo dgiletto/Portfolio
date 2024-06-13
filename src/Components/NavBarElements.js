@@ -3,7 +3,7 @@ import { NavLink as Link } from 'react-router-dom'
 import { FaBars,FaHome } from 'react-icons/fa'
 
 export const Nav = styled.nav`
-    background: #000;
+    background: #242424;
     height: 85px;
     display: flex;
     padding: 0.2rem calc((100vw - 1000px) / 2);
@@ -78,7 +78,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
     border-radius: 4px;
-    background: #000;
+    background: #242424;
     padding: 10px 22px;
     color: #fff;
     outline: none;
