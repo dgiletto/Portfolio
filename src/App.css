@@ -77,3 +77,67 @@
   transition: all ease-in-out 0.3s;
 }
 
+/* About Page */
+.AboutText button {
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 25px 3% 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #242424;
+  color: #e7e7e7;
+  height: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: none;
+}
+
+.AboutText button:hover {
+  color: #242424;
+  background-color: #e7e7e7;
+  transition: all ease-in-out 0.3s;
+}
+
+.AboutPage {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 80vh;
+  margin-top: 100px;
+  align-items: center;
+  padding: 25px;
+}
+
+.AboutText {
+  width: 50%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}
+.AboutTextHeading {
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+  .AboutPage {
+    display: block;
+    text-align: center;
+    padding: 30px;
+  }
+  .AboutText {
+    text-align: left;
+    display: inline-block;
+    width: 95%;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    margin-bottom: 80px;
+  }
+  .AboutTextHeading {
+    font-size: 26px;
+  }
+}
