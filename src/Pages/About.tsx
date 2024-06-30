@@ -30,7 +30,7 @@ function About() {
                     to hear from you! I thrive working within teams and strive to be a leader
                     at all chances I get. Please reach out to me and download my resume below!
                 </p>
-                <a href="Dylan_Giletto_Resume.pdf" download className="resume-btn">
+                <a href="./Dylan_Giletto_Resume.pdf" download className="resume-btn">
                     <button>
                         Download Resume <FaFileDownload />
                     </button>
