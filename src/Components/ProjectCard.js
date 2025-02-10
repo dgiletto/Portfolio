@@ -11,8 +11,8 @@ export const ProjectCard = ({ title, photo}) => {
 
         StockDesc:
             "This is a machine learning project which uses a K-Nearest Neighbors (or KNN for short) algorithm to make accurate predictions on the trajectory of a certain stock.",
-        StockGithub: "https://github.com/dgiletto",
-        StockWebsite: "https://github.com/dgiletto",
+        StockGithub: "https://github.com/dgiletto/Stock_Prediction",
+        StockWebsite: "https://github.com/dgiletto/Stock_Prediction",
     }
     return (
         <div className="projectBox">
