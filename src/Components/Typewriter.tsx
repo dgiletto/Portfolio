@@ -6,7 +6,7 @@ export function Type() {
     <div className="TypeEffect">
       <Typewriter
         options={{
-          strings: ["Data Scientist","Software Engineer","Machine Learning Scientist"],
+          strings: ["Data Scientist","Software Engineer"],
           autoStart: true,
           loop: true,
           delay: 70,
