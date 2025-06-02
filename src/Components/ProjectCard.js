@@ -17,7 +17,12 @@ export const ProjectCard = ({ title, photo}) => {
         Music_RecommendationDesc:
             "Another personal project where I used a spotify dataset with the audio features of thousands of songs and employed a K-Nearest Neighbors model to give song recommendations based on a given track.",
         Music_recommendationGithub: "https://github.com/dgiletto/Music_Recommendation",
-        Music_RecommendationWebsite: "https://github.com/dgiletto/Music_Recommendation"
+        Music_RecommendationWebsite: "https://github.com/dgiletto/Music_Recommendation",
+
+        Rainfall_PredictionDesc:
+            "Rainfall prediction classifier which uses features such as temperature, wind speed, cloud cover, etc. to determine if it will rain tomorrow. Within the project is a notebook which compares an XGB classifier, Support Vector Classifier, and a Logistic Regressor to see which has the best performance. I then picked one of the models (The Support Vector Classifier) and created a website where users can enter features to determine if it will rain the next day or not!",
+        Rainfall_PredictionGithub: "https://github.com/dgiletto/Rain_Prediction",
+        Rainfall_PredictionWebsite: "https://venerable-lily-35c7fc.netlify.app/"
     }
     return (
         <div className="projectBox">
