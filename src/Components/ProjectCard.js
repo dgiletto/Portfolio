@@ -22,7 +22,12 @@ export const ProjectCard = ({ title, photo}) => {
         Rainfall_PredictionDesc:
             "Rainfall prediction classifier which uses features such as temperature, wind speed, cloud cover, etc. to determine if it will rain tomorrow. Within the project is a notebook which compares an XGB classifier, Support Vector Classifier, and a Logistic Regressor to see which has the best performance. I then picked one of the models (The Support Vector Classifier) and created a website where users can enter features to determine if it will rain the next day or not!",
         Rainfall_PredictionGithub: "https://github.com/dgiletto/Rain_Prediction",
-        Rainfall_PredictionWebsite: "https://venerable-lily-35c7fc.netlify.app/"
+        Rainfall_PredictionWebsite: "https://venerable-lily-35c7fc.netlify.app/",
+
+        TrakrDesc:
+            "Subscription Tracker which users can log in and store their current subscriptions on the dashboard. They can visualize and filter the subscriptions they are currently paying for!",
+        TrakrGithub: "https://github.com/dgiletto/Subscription_Tracker",
+        TrakrWebsite: "https://subscription-trakr.netlify.app/"
     }
     return (
         <div className="projectBox">

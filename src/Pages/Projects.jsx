@@ -4,6 +4,7 @@ import projImg1 from '../Images/projImg1.jpg';
 import projImg2 from '../Images/projImg2.png';
 import projImg3 from '../Images/projImg3.jpg';
 import projImg4 from '../Images/projImg4.jpeg';
+import projImg5 from '../Images/projImg5.png';
 
 export const Projects = () => {
     return (
@@ -16,6 +17,7 @@ export const Projects = () => {
                 <ProjectCard photo={projImg2} title="PCMart" />
                 <ProjectCard photo={projImg3} title="Music_Recommendation" />
                 <ProjectCard photo={projImg4} title="Rainfall_Prediction" />
+                <ProjectCard photo={projImg5} title="Trakr" />
             </div>
         </div>
     )
