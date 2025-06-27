@@ -1,6 +1,6 @@
 import React from 'react';
 import { ProjectCard } from '../Components/ProjectCard.js';
-import projImg1 from '../Images/projImg1.jpg';
+import projImg1 from '../Images/projImg1.png';
 import projImg2 from '../Images/projImg2.png';
 import projImg3 from '../Images/projImg3.jpg';
 import projImg4 from '../Images/projImg4.jpeg';
@@ -13,7 +13,7 @@ export const Projects = () => {
                 My <b>Projects</b>
             </h1>
             <div className="project">
-                <ProjectCard photo={projImg1} title="Stock" />
+                <ProjectCard photo={projImg1} title="Stock_Forecast" />
                 <ProjectCard photo={projImg2} title="PCMart" />
                 <ProjectCard photo={projImg3} title="Music_Recommendation" />
                 <ProjectCard photo={projImg4} title="Rainfall_Prediction" />

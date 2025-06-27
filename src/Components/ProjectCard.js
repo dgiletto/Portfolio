@@ -9,10 +9,10 @@ export const ProjectCard = ({ title, photo}) => {
         PCMartGithub: "https://github.com/dgiletto/Team-6",
         PCMartWebsite: "https://dgiletto.github.io/Team-6/",
 
-        StockDesc:
-            "This is a personal project I did which compares a linear regression model against a long short term memory neural network to find which is more effective for stock prediction. Both models' predictions are plotted with the actually movements of the stock to help visualize their performance.",
-        StockGithub: "https://github.com/dgiletto/Stock_Prediction",
-        StockWebsite: "https://github.com/dgiletto/Stock_Prediction",
+        Stock_ForecastDesc:
+            "A personal project where I leveraged a Long Short Term Model for forecasting the next 7-days of a stock. Users are able to use an immersive frontend to enter a ticker and are returned with a graph which shows the projection of the next 7 days along with confidence intervals. It also outputs the Root Mean Square Error of the model, showcasing its accuracy along with a graph of the predictions of the testing data and the actual testing data itself for maximum visualization/understanding.",
+        Stock_ForecastGithub: "https://github.com/dgiletto/Stock_Prediction",
+        Stock_ForecastWebsite: "https://stock-prediction-olive.vercel.app/",
 
         Music_RecommendationDesc:
             "Another personal project where I used a spotify dataset with the audio features of thousands of songs and employed a K-Nearest Neighbors model to give song recommendations based on a given track.",
