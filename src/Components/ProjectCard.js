@@ -27,14 +27,19 @@ export const ProjectCard = ({ title, photo}) => {
         TrakrDesc:
             "Subscription Tracker which users can log in and store their current subscriptions on the dashboard. They can visualize and filter the subscriptions they are currently paying for!",
         TrakrGithub: "https://github.com/dgiletto/Subscription_Tracker",
-        TrakrWebsite: "https://subscription-trakr.netlify.app/"
+        TrakrWebsite: "https://subscription-trakr.netlify.app/",
+
+        CoreSyncDesc:
+            "Fitness/Health Tracker which users can log their workouts and get weekly or monthly progress reports. It will also use AI to suggest workouts depending on experience level and fitness goals.",
+        CoreSyncGithub: "https://github.com/dgiletto/core-sync",
+        CoreSyncWebsite: "https://core-sync-rouge.vercel.app/"
     }
     return (
         <div className="projectBox">
       <img className="projectPhoto" src={photo} alt="Project display" />
       <div>
         <br />
-        <h3>{title}</h3>
+        <h3>{title.replaceAll("_", " ")}</h3>
         <br />
         {desc[title + "Desc"]}
         <br />
